@@ -1,0 +1,25 @@
+.userMenu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: #fff;
+  color: #333;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 140px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.menuItem {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menuItem:hover {
+  background: #f0f0f0;
+}
